@@ -1,0 +1,50 @@
+
+
+.reg-box{
+
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    border: 2px solid gray;
+    padding: 15px;
+    box-shadow: 5px 5px  10px gray;
+    background-color: white;
+}
+.reg-box h2{
+    float: left;
+    margin-bottom: 50px;
+    border-bottom: 5px solid midnightblue;
+    
+}
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 1px solid maroon;
+}
+.reg-box input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    width: 280px;
+    float: left;
+    margin:0px 10px;
+}
+.btn{
+    width: 100%;
+    background: lightskyblue;
+    border: 1px solid maroon;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.btn:hover{
+    background-color: rgba(173, 216, 230, 0.507);
+    transition: .5s;
+}

@@ -1,0 +1,74 @@
+header{
+    background: linear-gradient(rgba(255, 255, 255, 0.671),rgba(255, 255, 255, 0.671)), url(../../../images/pexels-soulful-pizza-5157885.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    position: relative;
+}
+.main-nav li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.main-nav{
+    float: right;
+    margin-right: 230px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+.logo{
+    height: 80px;
+    width: auto;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+   
+
+}
+.geelary{
+    margin: 5px;
+    float: left;
+    width: 288px;
+   
+   
+}
+.geelary:hover{
+    color: yellow;
+  
+}
+
+.geelary img{
+    width: 100%;
+    height: auto;
+  
+}
+.dec{
+    padding:15px;
+    text-align: center;
+    background: darkturquoise;
+    border-radius: 5px;
+   
+}
+.dec:hover{
+    background-color:maroon;
+    color: white;
+    transition: .8s;
+}

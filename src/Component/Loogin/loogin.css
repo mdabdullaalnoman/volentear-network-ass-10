@@ -1,0 +1,14 @@
+.signin-box{
+    width: 280px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid gray;
+    padding: 50px ;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.842);
+    font-size: 20px;
+
+}
